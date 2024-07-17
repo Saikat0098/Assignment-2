@@ -184,9 +184,7 @@ nav .acctive{
        }
       .header-container{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0px auto;
+        
 
       }    
       nav{
@@ -208,6 +206,7 @@ nav .acctive{
         font-size: 2rem;
       }
       .header-taitel{
+
         font-size: 2.3rem;
         width: 320px;
       }
