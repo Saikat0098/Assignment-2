@@ -186,6 +186,7 @@ nav .acctive{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0px auto;
 
       }    
       nav{
@@ -207,8 +208,8 @@ nav .acctive{
         font-size: 2rem;
       }
       .header-taitel{
-        font-size: 3rem;
-        width: 350px;
+        font-size: 2.3rem;
+        width: 320px;
       }
       .header-description{
         width: 100%;
@@ -223,11 +224,11 @@ nav .acctive{
       }
       .Workout{
         top: 80px;
-        right: -10px;
+        right: 40px;
       }
        .video-tutorial{
         bottom:250px;
         left: 20px;
-        width: 55%;
+         
        }
     }
