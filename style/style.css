@@ -211,7 +211,8 @@ nav .acctive{
         width: 320px;
       }
       .header-description{
-        width: 100%;
+        width: 320px;
+        margin-top: -100px;
       }
       .header-btn{
         margin-top: 20px;
@@ -221,9 +222,21 @@ nav .acctive{
       .btn1 , .downloade-btn{
          padding: 16px 18px;
       }
+      .header-right-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0px auto; */
+      }
+      .header-left-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
       .Workout{
         top: 80px;
-        right: 40px;
+        right: 20px;
       }
        .video-tutorial{
         bottom:250px;
