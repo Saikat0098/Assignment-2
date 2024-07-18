@@ -247,6 +247,69 @@ nav .acctive{
   border-radius: 50%;
   border: 2px solid gray;
  }
+ /* run-an-extra-area section2 start */
+ .run-an-extra-area{
+  margin-top: 50px;
+   max-width: 100%;
+   height: 90vh;
+   background-color: rgb(0, 0, 0);
+
+ }
+ .run-an-extra-main-box{
+  width: 80%;
+  height: 330px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(34, 34, 34);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px;
+
+ }
+ .run-an-extra-box-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 430px;
+  height: 280px;
+ }
+ .run-an-extra-box-left h2{
+  width: 300px;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 800;
+
+ }
+ .run-an-extra-box-left p{
+  color: #efede8a3;
+  font-size: 0.900rem;
+  padding: 15px 0px;
+ }
+ .join-now-btn{
+  padding: 14px 45px 14px 45px;
+
+ }
+ .run-an-extra-box-right{
+  width: 450px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px; 
+
+ }
+ .extra-box-right-child{
+  width: 350px;
+  height: 270px;
+  background-image: url(../images/run.jpg);
+  background-position: right top 33px ;
+  background-size:cover;
+  background-repeat: no-repeat;
+  transform: scale(2.9);
+
+ 
+ }
+
 /* Small Devices */
 @media screen and (max-width:576px) {
        header{
@@ -334,5 +397,29 @@ nav .acctive{
        .change-habit-img-container{
         grid-template-columns: 1fr;
         gap: 20px;
+       }
+       /* Section run-an-extra */
+       .run-an-extra-main-box{
+        flex-direction: column;
+        height: 100%;
+        
+        
+       }
+       .run-an-extra-box-left{
+        width: 100%;
+         
+        
+       }
+       .run-an-extra-box-right{
+        width: 100%;
+       margin-top: 5px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+
+       }
+       .extra-box-right-child{
+        width: 100%;
        }
     }
