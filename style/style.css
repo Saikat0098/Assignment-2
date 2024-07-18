@@ -8,6 +8,9 @@
   "slnt" 0;
   
 }
+
+ @import url('https://fonts.cdnfonts.com/css/miama');
+                
 *{
     padding: 0;
     margin: 0;
@@ -96,19 +99,25 @@ nav .acctive{
     margin-top: 100px;
 }
 .header-taitel{
-    width: 31rem;
-    height: 15rem;
+    width: 30rem;
+    height: 20rem;
     font-size: 4rem;
     color: #ffff;
     font-weight: 900;
+    position: relative;
 }
 .header-taitel .shape{
-   
+  font-family: 'Miama', sans-serif;
+  font-size: 7rem;  
+  letter-spacing: 5px;   
+  position: relative;                                         
 }
+ 
 .header-description{
     width: 31rem;
     color: rgba(255, 255, 255, 0.559);
-    padding: 15px 0px;
+    margin: 40px 0px;
+    /* padding: 45px 0px; */
 
 }
 .downloade-btn{
@@ -177,7 +186,68 @@ nav .acctive{
     background-color: #E6533C;
     border-radius: 50%;
 }
+/* Main Area Start */
+ main{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+ }
+ .change-habit-area{
+    max-width: 80%;
+    margin: 0 auto;
 
+    
+ }
+ .change-habit-taitel-area{
+  color: #fff;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  padding: 150px 0px 120px 0px;
+ }
+ .change-habit-taitel-area h2{
+  font-size: 2.600rem;
+  font-weight: 800;
+ }
+ .change-habit-taitel-area p{
+  font-size: 0.900rem;
+  color: #efede8a3;
+  padding-top: 1.25rem;
+ }
+ .change-habit-img-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 3.125rem;
+ }
+ .change-habit-img-box{
+   max-width: 250px;
+   height: 250px;
+  color: #fff;
+  margin: 0 auto;
+  /* border: 2px solid #E6533C; */
+  text-align: center;
+
+ }
+ .change-habit-img-box h5{
+  padding: 0.625rem;
+  font-size: 0.900rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+ }
+ .change-habit-img-box p{
+  width: 12.5rem;
+  font-size: 0.75rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #ffffff88;
+ }
+ .change-habit-img-box img{
+  border-radius: 50%;
+  border: 2px solid gray;
+ }
+/* Small Devices */
 @media screen and (max-width:576px) {
        header{
         height: 100%;
@@ -190,6 +260,9 @@ nav .acctive{
       nav{
         width: 90%;
         justify-content: space-between;
+      }
+      nav .bar{
+        margin-right: 10px;
       }
       nav .logo h3{
         font-size: 2rem;
@@ -207,12 +280,15 @@ nav .acctive{
       }
       .header-taitel{
 
-        font-size: 2.3rem;
+        font-size: 2.5rem;
         width: 320px;
+      }
+      .change-habit-taitel-area h1 .shape{
+        font-size: 2rem;
       }
       .header-description{
         width: 320px;
-        margin-top: -100px;
+        margin-top: -50px;
       }
       .header-btn{
         margin-top: 20px;
@@ -242,5 +318,21 @@ nav .acctive{
         bottom:250px;
         left: 20px;
          
+       }
+       /* Main Area Start */
+       .change-habit-taitel-area{
+          width: 100%;
+       padding: 10px 0px 30px 0px;
+
+       }
+       .change-habit-taitel-area h2{
+        font-size: 2rem;
+       }
+       .change-habit-taitel-area p{
+        font-size: 0.800rem;
+       }
+       .change-habit-img-container{
+        grid-template-columns: 1fr;
+        gap: 20px;
        }
     }
