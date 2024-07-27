@@ -10,6 +10,13 @@
 }
 
  @import url('https://fonts.cdnfonts.com/css/miama');
+
+.dancing-script-font{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
                 
 *{
     padding: 0;
@@ -21,7 +28,9 @@ body{
 }
 
 /* Share Style */
-
+.hide{
+   display: none;
+}
 .display-flex{
     display: flex;
 }
@@ -41,6 +50,7 @@ body{
    color: #ffff;
    font-size: 0.900rem;
    font-weight: 600;
+   cursor: pointer;
 }
 
 .hide{
@@ -108,7 +118,8 @@ nav .acctive{
 }
 .header-taitel .shape{
   font-family: 'Miama', sans-serif;
-  font-size: 7rem;  
+  font-weight: 800;
+  font-size: 6rem;  
   letter-spacing: 5px;   
   position: relative;                                         
 }
@@ -251,7 +262,7 @@ nav .acctive{
  .run-an-extra-area{
   margin-top: 50px;
    max-width: 100%;
-   height: 90vh;
+   height: 50vh;
    background-color: rgb(0, 0, 0);
 
  }
@@ -309,7 +320,108 @@ nav .acctive{
 
  
  }
+ /* Bmi Calculator Area Start */
+ .bmi-main-taitel-area{
+  color: #fff;
+  width: 100%;
+  margin-left: 25%;
+  padding-bottom: 30px;
+ }
+ .bmi-calculate-main-taitel{
+  font-size: 2.5rem;
+ }
+ .bmi-calculate-main-description{
+  font-size: 0.850rem;
+  margin-top: 10px;
+ }
+  .bmi-calculator-main-area{
+    width: 100%;
+    height: 70vh;
+    background: rgb(34, 34, 34);
+    
+  }
+  .bmi-calculator-main-box{
+    width: 80%;
+    justify-content: space-between;
+    padding: 50px 0px;
+    margin: 0 auto;
+  }
+ .Calculate-taitel{
+     color: #fff;
+     padding-bottom: 40px;
+ }
+ .bmi-calculator-Weight-box{
+  display: flex;
+ }
+ .bmi-calculator-Weight-box div{
+  width: 150px;
+  height: 200px;
+   
+ }
+ .bmi-calculator-Weight-box div h5{
+    color: #fff;
+    font-weight: 700;
+    
+ }
+ .bmi-calculator-Weight-box div p{
+  color: rgba(255, 255, 255, 0.549);
+  font-size: 0.700rem;
+ }
+ .bmi-calculator-Weight-box h5{
+  padding: 10px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.132);
+  
+  
+ }
+ .bmi-calculator-Weight-box p{
+  padding: 10px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.132);
+ 
+ }
+ /* Bmi-Calculator Right-box */
+ .bmi-calculator-right-box > p{
+  width: 100%;
+  margin-top: -30px;
+  font-size: 0.900rem;
+}
+ .bmi-calculator-input-area{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  /* row-gap: 10px; */
+  width: 570px;
+ }
 
+ .bmi-calculate-input input , select{
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+ }
+ .slected-activity{
+  grid-column: span 2;
+}
+
+ .bmi-calculate-input input::placeholder,select{
+  color: #ffffff62;
+       
+ }
+ .bmi-calculate-input select option{
+  color: #fff;
+  background: rgba(0, 0, 0, 0.577);
+  border: none;
+  outline: none;
+  
+ }
+ .calculate-btn{
+  width: 180px;
+  margin-top: 10px;
+ }
+  
 /* Small Devices */
 @media screen and (max-width:576px) {
        header{
@@ -383,6 +495,9 @@ nav .acctive{
          
        }
        /* Main Area Start */
+       .run-an-extra-area{
+        height: 90vh;
+       }
        .change-habit-taitel-area{
           width: 100%;
        padding: 10px 0px 30px 0px;
@@ -422,4 +537,36 @@ nav .acctive{
        .extra-box-right-child{
         width: 100%;
        }
+       .join-now-btn{
+        margin: 0 auto;
+        width: 100%;
+      
+       }
+       /* Bmi Calculator Code start */
+       .bmi-main-taitel-area{
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-left: 0%;
+        text-align: left;
+       }
+       .bmi-main-taitel-area > h2{
+        font-size: 1.8rem;
+       }
+       .bmi-main-taitel-area .bmi-calculate-main-description{
+        margin-top: 15px;
+        width: 100%;
+        
+       }
+      .bmi-calculator-main-box{
+        flex-direction: column;
+        width: 85%;
+      }
+      .bmi-calculator-input-area{
+        width: 100%;
+      }
+       
+      .bmi-calculator-main-area{
+        height: 100%;
+      }
     }
