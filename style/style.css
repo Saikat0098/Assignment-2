@@ -335,7 +335,7 @@ nav .acctive{
  }
   .bmi-calculator-main-area{
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     background: rgb(34, 34, 34);
     
   }
@@ -420,7 +420,206 @@ nav .acctive{
   width: 180px;
   margin-top: 10px;
  }
+ /* our team area start */
+ .our-team-section-area{
+  width: 100%;
+  height: 120vh;
+  margin: 0 auto;
+ }
+ .our-team-taitel-area{
+   padding: 40px;
+   margin: 0 auto;
+ }
+ .our-team-taitel-area h2{
+   color: #fff;
+   text-align: center;
+   font-size: 3rem;
+   font-weight: 800;
+   padding-top: 20px;
+ } 
+ .our-team-taitel-area p{
+  width: 700px;
+  padding-top: 10px;
+  margin-left: 400px;
+  text-align: center;
+  color: #ffffff71;
+  text-align: center;
+ 
+ }  
+ .our-team-container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgb(34, 34, 34);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  justify-content: space-between;
+ 
+ }
+ 
+ .our-team-img-box div{
+  color: #fff;
+  position: relative;
+  top: -80px;
+  left: 10px;
+ }
+ .our-team-img-box div p{
+  color: #ffffff7f;
+  font-size: 1rem;
+ }
+ .our-team-img-box{
+  margin: 0 auto;
+  width: 390px;
+  height: 310px;
+  overflow: hidden;
+ }
+ .our-team-img-box img{
+   width: 100%;
+   height: 100%;
+  border-radius: 10px;
+  transition: 0.5s;
+   
+ }
+ .our-team-img-box:hover img{
+  transform: scale(1.2);
+ }
+ /* Students Profile */
+ .students-profile-area{
+  max-width: 100%;
+  height: 100vh;
+  background: rgb(34, 34, 34);
+
+
+
+ }
+ .students-profile-area > h2{
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1;
+  padding: 30px 0px 80px 0px;
+
+}
+.students-profile-container{
+  width: 80%;
+  /* height: 100vh; */
+  margin: 0 auto;
+  /* background-color: rgba(128, 128, 128, 0.644); */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* gap: 30px; */
+  position: relative;
+}
+.student-profile{
+  width: 80%;
+  height: 540px;
+  margin: 0 auto;
+  background-color:teal;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+}
+.student-profile-two{
+  /* width: 87%;
+  height: 550px; */
+  transform: scale(1.1);
+  background-color: slateblue; 
+}
+.student-profile:hover{
+  /* transform: scaleY(1.0600); */
+  transform: scale(1.1);
+
+}
+.student-profile-two:hover{
+  transform: scale(1.1);
+
+}
+.profile-cover{
+  width:100%;
+  height: 250px;
+  clip-path: polygon(0 0, 100% 0, 100% 97%, 0 79%);
   
+
+}
+.profile{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  z-index: 2;
+}
+.profile-text-btn-area{
+  padding: 0px 15px 0px 25px; 
+ 
+}
+.profile-text-btn-area > h2{
+  padding: 10px 0px;
+  
+  
+}
+.profile-btn{
+  margin-top: 30px;
+}
+.more-info-btn{
+  padding: 14px 30px 14px 30px;
+}
+ /* Footer Section */
+ footer{
+  width: 100%;
+  background-color: black;
+  height: 50vh;
+  margin: 0 auto;
+ }
+ .footer-container{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #fff;
+  /* border-bottom: 00.0100rem solid rgba(255, 255, 255, 0.235); */
+
+ }
+ .footer-box-logo > a h3{
+   font-size: 3rem;
+   margin-top: -15px;
+   padding-bottom: 10px;
+ }
+ .footer-box{
+  margin-left: 100px;
+  /* border: 1px solid white; */
+ }
+ .footer-box h3{
+     font-size: 1.5rem;
+     padding-bottom: 10px;
+ }
+ .footer-box p {
+  font-weight: 100;
+  font-size: 0.850rem;
+  margin-top: 5px;
+  padding-top: 10px;
+ }
+ .footer-left-description{
+  font-size: 0.800rem;
+ }
+ .copy-right-section  {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+  border-top:1px solid rgba(255, 255, 255, 0.343);
+  
+ }
+ .copy-right-section p {
+  padding-top: 15px;
+ } 
 /* Small Devices */
 @media screen and (max-width:576px) {
        header{
@@ -568,4 +767,47 @@ nav .acctive{
       .bmi-calculator-main-area{
         height: 100%;
       }
+      /* Our Team Area */
+      .our-team-section-area{
+        width: 100%;
+        height: 100%;
+      }
+      .our-team-taitel-area{
+        width: 100%;
+        margin: 0 auto;
+      }
+      .our-team-taitel-area h2{
+        width: 100%;
+        font-size: 2rem;
+      }
+      .our-team-taitel-area p {
+        width: 100%;
+      margin-left: auto;
+        
+      }
+
+       .our-team-container{
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+       }
+        .our-team-img-box{
+          width: 100%;
+        }
+      /* Students Profile */
+      .students-profile-area{
+        height: 100%;
+        padding-bottom: 30px;
+      }
+      .students-profile-container{
+        width: 100%;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 50px;
+       
+      }
+     .student-profile{
+      width: 90%;
+      height: 550px;
+     }
     }
