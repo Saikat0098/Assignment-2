@@ -456,35 +456,78 @@ nav .acctive{
   grid-template-columns: repeat(3,1fr);
   gap: 10px;
   justify-content: space-between;
- 
+  
  }
- 
- .our-team-img-box div{
-  color: #fff;
-  position: relative;
-  top: -80px;
-  left: 10px;
+ .our-team-img-box-repeat:hover{
+  transform: scale(1.3);
+  
  }
- .our-team-img-box div p{
-  color: #ffffff7f;
-  font-size: 1rem;
- }
- .our-team-img-box{
-  margin: 0 auto;
+ .our-team-img-box-1{
+    
+  background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
+  url('/images/trainer1.png');
+   
+}
+.our-team-img-box-2{
+  
+  background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
+  url('/images/trainer2.png');
+
+}
+.our-team-img-box-3{
+  
+  background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
+  url('/images/trainer3.png');
+
+}
+.our-team-img-box-4{
+  
+  background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
+  url('/images/trainer4.png');
+  background-position: right;
+
+}
+.our-team-img-box-5{
+  
+  background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
+  url('/images/trainer5.png');
+
+}
+.our-team-img-box-6{
+  
+  background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
+  url('/images/trainer6.png');
+  
+}
+ .our-team-img-main-box{
   width: 390px;
   height: 310px;
   overflow: hidden;
  }
- .our-team-img-box img{
-   width: 100%;
-   height: 100%;
+.our-team-img-box-repeat{
+  width: 390px;
+  height: 310px;
   border-radius: 10px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden !important;
   transition: 0.5s;
-   
+}
+.our-team-img-box-repeat div{
+  margin-top: 250px;
+  margin-left: 20px;
+  color: #fff;
+}
+.our-team-img-box-repeat div{
+
+}
+ .our-team-img-box-repeat div p{
+  color: #ffffff7f;
+  font-size: 1rem;
  }
- .our-team-img-box:hover img{
-  transform: scale(1.2);
- }
+ 
+ 
  /* Students Profile */
  .students-profile-area{
   max-width: 100%;
@@ -598,7 +641,10 @@ nav .acctive{
      font-size: 1.5rem;
      padding-bottom: 10px;
  }
- .footer-box p {
+ .footer-box a {
+  display: block;
+  color: white;
+  text-decoration: none;
   font-weight: 100;
   font-size: 0.850rem;
   margin-top: 5px;
@@ -714,6 +760,7 @@ nav .acctive{
        /* Section run-an-extra */
        .run-an-extra-main-box{
         flex-direction: column;
+        width: 90%;
         height: 100%;
         
         
@@ -792,13 +839,17 @@ nav .acctive{
         height: 100%;
         margin: 0 auto;
        }
-        .our-team-img-box{
+       .our-team-img-main-box{
+        width: 100%;
+       }
+        .our-team-img-box-repeat{
           width: 100%;
         }
       /* Students Profile */
       .students-profile-area{
         height: 100%;
-        padding-bottom: 30px;
+        margin-top: 30px;
+        padding-bottom: 30px; 
       }
       .students-profile-container{
         width: 100%;
@@ -809,5 +860,21 @@ nav .acctive{
      .student-profile{
       width: 90%;
       height: 550px;
+     }
+     /* Footer Section */
+     footer{
+      width: 100%;
+      height: 100%;
+      padding-bottom: 20px;
+     }
+     .footer-container{
+      width: 90%;
+      grid-template-columns: 1fr;
+      padding-bottom: 10px;
+     }
+     .footer-box{
+      padding-top: 20px;
+      margin-left:0px;
+       
      }
     }
