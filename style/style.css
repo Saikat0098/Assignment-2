@@ -146,10 +146,13 @@ nav .acctive{
 .Workout{
     position: absolute;
     color: #ffff;
-    background: rgba(144, 144, 144, 0.26);
-    backdrop-filter: blur(30px);
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+   /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     top: 140px;
     right: 40px;
     width: 8.500rem;
@@ -171,10 +174,17 @@ nav .acctive{
     bottom: 80px;
     left: -50px;
     color: #ffff;
-    background: rgba(144, 144, 144, 0.26);
-    backdrop-filter: blur(30px);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    /* background: rgba(144, 144, 144, 0.26); */
+    /* backdrop-filter: blur(30px); */
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
     width: 9.500rem;
     height: 5rem;
     padding: 20px 10px;
