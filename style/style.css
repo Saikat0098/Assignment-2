@@ -479,32 +479,32 @@ nav .acctive{
  .our-team-img-box-1{
     
   background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
-  url('/images/trainer1.png');
+  url('../images/trainer1.png');
    
 }
 .our-team-img-box-2{
   
   background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
-  url('/images/trainer2.png');
+  url('../images/trainer2.png');
 
 }
 .our-team-img-box-3{
   
   background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
-  url('/images/trainer3.png');
+  url('../images/trainer3.png');
 
 }
 .our-team-img-box-4{
   
   background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
-  url('/images/trainer4.png');
+  url('../images/trainer4.png');
   background-position: right;
 
 }
 .our-team-img-box-5{
   
   background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
-  url('/images/trainer5.png');
+  url('../images/trainer5.png');
 
 }
 .our-team-img-box-6{
@@ -535,9 +535,7 @@ nav .acctive{
   margin-left: 20px;
   color: #fff;
 }
-.our-team-img-box-repeat div{
-
-}
+ 
  .our-team-img-box-repeat div p{
   color: #ffffff7f;
   font-size: 1rem;
