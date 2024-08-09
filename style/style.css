@@ -330,10 +330,13 @@ nav .acctive{
  
  }
  /* Bmi Calculator Area Start */
+ .bmi-calculator-main-section{
+  width: 100%;
+ }
  .bmi-main-taitel-area{
   color: #fff;
-  width: 100%;
-  margin-left: 25%;
+  width: 500px;
+  margin-left: 150px;
   padding-bottom: 30px;
  }
  .bmi-calculate-main-taitel{
@@ -506,7 +509,7 @@ nav .acctive{
 .our-team-img-box-6{
   
   background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.357) , transparent) , 
-  url('/images/trainer6.png');
+  url('../images/trainer6.png');
   
 }
  .our-team-img-main-box{
@@ -543,7 +546,7 @@ nav .acctive{
   max-width: 100%;
   height: 100vh;
   background: rgb(34, 34, 34);
-
+  padding-bottom: 50px;
 
 
  }
